@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mango Ice-Cream</title>
+    <style>
+        h1{
+            color: #ffc93c;
+            text-decoration: none;
+            text-align: center;
+            font-style: normal;
+        }
+        h2{
+            text-align: center; 
+            color: #ffc93c;
+            clip-path: circle(300px);
+            border: 2px solid #ff9a3c;
+            border-radius: 4px;
+            padding: 10px;
+            border-style: dotted;
+        }
+        div {
+       display: inline-flex;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+       text-align: center;
+       margin: auto;
+
+        }
+        img{
+            display: inline-block;
+            width: 200px;
+            margin: 0 auto;
+            size-adjust: left(500px);
+            margin-left: 20px;
+        
+        }
+        .container{
+        max-width: 600px;
+        margin: 0 auto;
+        }
+        .paragraph{
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 20px;
+            line-height: 1.5;
+        }
+        .benefits{
+            text-shadow: 2cm;
+            font-size: large;
+            font-weight: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+            text-decoration: underline;
+        }
+        .benefits:hover{
+            border: 2px solid;
+            border-radius: 100px;
+            margin: 2px auto;
+            background-color:rgba(252, 173, 3, 0.651) ;
+            box-sizing: 10px;
+            border-color: rgba(252, 173, 3, 0.651);
+            clip-path: circle(150px);
+            
+        }
+        li{
+            padding: 5px;
+            margin: 0 auto;
+        }
+        .website{
+            margin-top: 10px;
+            text-decoration: none;
+            color:#686363cb;
+        }
+        .website:hover{
+        cursor: pointer;
+        text-decoration: underline;
+         color: rgb(252, 173, 3, 0.986);
+        }
+        .more-info{
+            margin-top: 10px;
+        }
+        button{
+            display: block;
+                text-align: center;
+                margin: 0 auto;
+                padding: 10px;
+                border: 1px solid;
+                border-radius: 100px;
+         color: #fd833d;
+         transition: all 100ms ease-in-out;
+         font-size: 15px;
+         background-color: #ffe79a;
+        }
+        button:hover{
+            cursor: pointer;
+            color: rgb(252, 165, 3);
+            background-color: #ada2a25e;
+        }
+        .Coder{
+            font-family: 'Courier New', Courier, monospace;
+                color: rgb(94, 92, 92);
+                text-align: center;
+                font-size: 17px;
+        }
+        body{
+            background-color: #fdffcd;
+            border-radius: 4px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <span class="container">
+        <h1> 
+            Let us talk about Mango Ice-Cream🍦😋
+        </h1>
+        <h2>
+            Especially the benefits of eating mango!
+        </h2>
+        <hr>
+    <div>
+        
+     <img src="https://www.pineappleandcoconut.com/wp-content/uploads/2021/06/Mango-Ice-Cream-6-1022x1536.jpg" alt="Mango Ice-Cream" />
+
+<span class="paragraph"> The mango is a tropical fruit with hundreds of varieties that have been named "the king of fruits" due to its delicious flavor and many health benefits.
+       <br> Mangoes also have the potential to offer health benefits such as heart and eye health support. What's more, mangoes are versatile as they can be used during breakfast, as a snack, and in desserts.</br>
+         Mangoes have quite a few potential health benefits, such as protecting against diseases and skin health.
+        </span>
+    </div>
+    <hr>
+     </body>
+     <p>
+<span class="benefits"> The benefits of eating mango!</span>
+<li>
+May protect against some deseases
+</li>
+<li>
+    May protect heart health
+</li>
+<li>
+    Boost immune system
+</li>
+<li>
+    Improve skin health
+</li>
+<li>
+    May ease constipation
+</li>
+ For more info visit: <a href="http://www.health.com/nutrition/health-benefits-mango" target="_blank" class="website"> www.health.com/nutrition/health-benefits-mango</a>
+</p>
+<br>
+<button>
+    👉 Recipes of mango ice-cream
+</button>
+<br>
+<p>
+<caption> 
+    <span class="Coder">
+Coded by Nonkululeko Madonsela
+</span>
+</caption>
+</p>
+</span>
+<script>
+    function moreRecipes(){
+        let name = prompt("What is your name?");
+        let Email = prompt("What is your email address?");
+        let question = prompt ("Do you love Mango Ice-cream?");
+        alert("WOW!😅" + " " + name + " " + "Thank you" + " " +"We will be in touch by email.🍦💕");
+    }
+
+let moreRecipesButton = document.querySelector("button");
+moreRecipesButton.addEventListener("click", moreRecipes);
+</script>
+  </body>
+    </html>
